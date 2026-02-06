@@ -1,6 +1,6 @@
-### Hi
+### Hi there
 
-I am a Master's student at Portland State University studing Computer Engineering.
+I am a Master's student at Portland State University studyng Computer Engineering.
 
 * **Specialisation:** Computer Architecture, Design Verification.
 * **Technical Expertise:** UVM, SystemVerilog Assertions (SVA), Constrained Randomization, and Formal Methods.
