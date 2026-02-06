@@ -3,7 +3,7 @@ name: Generate Snake
 on:
   # Run automatically every 12 hours
   schedule:
-    - cron: "0 */1 * * *" 
+    - cron: "0 */12 * * *" 
   
   # Allows you to manually run the job at any time
   workflow_dispatch:
@@ -35,7 +35,7 @@ jobs:
 
       # Pushes the content to a specific branch named 'output'
       - name: push-github-contribution-grid-snake-svg-to-output-branch
-        uses: crazy-max/gh-action-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
